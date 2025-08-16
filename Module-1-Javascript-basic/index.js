@@ -4,6 +4,7 @@
 //
 // 1. Variable -> var, let, const
 // 2. Data types -> string, number, boolean, null, undefined, bigInt, symbol
+// 3. Typeof operator: use 'typeof' for check type of value variable
 //
 // =============================================================================== //
 
@@ -97,3 +98,36 @@ let notDefine = undefined;
 
 // 7. Symbol :
 let uniqueSym = Symbol("unique-fantastic");
+
+// -> Referance :
+// 1. Object :
+let person = {
+  name: "Marine Jishie",
+  age: 23,
+  isActive: true,
+  addrees: {
+    city: "England",
+    phone: null,
+    email: undefined,
+  },
+};
+
+// 2. Array :
+let fruits = ["Pineapple", "Banana", "Manggo", "Durian"];
+
+// 3. Function :
+function greetingMorning(name) {
+  console.log(`Good Morning, ${name}`);
+}
+greetingMorning("Marine Jishia");
+
+//
+//
+//
+//
+//
+
+// 3. Typeof operator:
+function userTesting()
+
+console.log()
